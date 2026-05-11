@@ -1,16 +1,81 @@
-# React + Vite
+# Messaging Client
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend client for a messaging platform built with React.
 
-Currently, two official plugins are available:
+This application consumes a Ruby on Rails backend API and provides a modern interface for authentication, conversations and real-time style messaging interactions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- User authentication
+- Messaging interface
+- Conversation management
+- API integration
+- Dynamic React components
+- Client-side routing
+- Responsive interface
+- Error handling and validation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React
+- JavaScript
+- CSS
+- React Router
+- REST API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Backend API
+
+This frontend is designed to work together with the backend API:
+
+- [messaging-api](YOUR_LINK_HERE)
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/bachatron/messaging-client.git
+cd messaging-client
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## Environment Variables
+
+Create a `.env` file if required:
+
+```env
+VITE_API_URL=
+```
+
+## Project Structure
+
+The project is organized using reusable React components and separated application logic for:
+
+- Authentication
+- API communication
+- State management
+- Routing
+- Messaging functionality
+
+## Future Improvements
+
+- Real-time WebSocket communication
+- Push notifications
+- Dark mode
+- Better mobile responsiveness
+- Dockerized deployment
+
+## Author
+
+bachatron
