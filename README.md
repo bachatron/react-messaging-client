@@ -29,6 +29,10 @@ This frontend is designed to work together with the backend API:
 
 - [messaging-api](YOUR_LINK_HERE)
 
+## Live demo
+
+-[demo](https://react-messaging-client.onrender.com)
+
 ## Installation
 
 Clone the repository:
@@ -75,6 +79,20 @@ The project is organized using reusable React components and separated applicati
 - Dark mode
 - Better mobile responsiveness
 - Dockerized deployment
+
+## Screnshots
+
+## Chat
+
+<p align="center">
+  <img src="screenshots/chat.png" width="800">
+</p>
+
+## Login
+
+<p align="center">
+  <img src="screenshots/login.png" width="800">
+</p>
 
 ## Author
 
