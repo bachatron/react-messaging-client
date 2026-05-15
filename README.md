@@ -80,18 +80,14 @@ The project is organized using reusable React components and separated applicati
 - Better mobile responsiveness
 - Dockerized deployment
 
-## Screnshots
-
-## Chat
+## Screenshots
 
 <p align="center">
-  <img src="screenshots/chat.png" width="800">
+  <img src="screenshots/chat.png" width="600">
 </p>
 
-## Login
-
 <p align="center">
-  <img src="screenshots/login.png" width="800">
+  <img src="screenshots/login.png" width="600">
 </p>
 
 ## Author
