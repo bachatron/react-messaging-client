@@ -31,7 +31,7 @@ This frontend is designed to work together with the backend API:
 
 ## Live demo
 
-- (https://react-messaging-client.onrender.com)
+- https://react-messaging-client.onrender.com
 
 ## Installation
 
